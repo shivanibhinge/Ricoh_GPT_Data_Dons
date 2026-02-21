@@ -16,8 +16,10 @@ from groq import Groq
 import streamlit as st
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+#updates
 
-LLM_PROVIDER = st.secrets.get["LLM_PROVIDER"]
+
+LLM_PROVIDER = st.secrets.get("LLM_PROVIDER")
 GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 OPENAI_MODEL = st.secrets["OPENAI_MODEL"]
 EMBEDDING_MODEL = st.secrets["EMBEDDING_MODEL"]
