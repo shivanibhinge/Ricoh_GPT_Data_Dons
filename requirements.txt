@@ -37,3 +37,4 @@ rich>=13.7.0
 # Notebook
 jupyter>=1.0.0
 ipython>=8.0.0
+groq
